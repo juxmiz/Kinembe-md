@@ -32,7 +32,7 @@ module.exports.genererNomFichier = async (extension) => {
 /** ************ */
 module.exports.stick = async (buffer, author) => {
     var sticker = new Sticker(buffer, {
-        pack: 'FLASH-MD',
+        pack: 'SPUNKY',
         author: author,
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
