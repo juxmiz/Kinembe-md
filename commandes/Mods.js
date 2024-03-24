@@ -110,7 +110,7 @@ fs.unlinkSync(medis)
 
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "FLASH-MD",
+            author: "SPUNKY",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
