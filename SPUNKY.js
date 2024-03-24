@@ -154,18 +154,18 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const FranceKing = '254757835036';
-            const FranceKing1 = '254751284190';
-            const FranceKing2 = "254750948696";
-            const FranceKing3 = '254742063632';
+            const maxwrldmemes = '254768301278';
+            const maxwrldmemes = '254768301278';
+            const maxwrldmemes = "254768301278";
+            const maxwrldmemes = '254742063632';
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, FranceKing, FranceKing1, FranceKing2, FranceKing3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            const superUserNumbers = [servBot, maxwrldmemes, maxwrldmemes1, maxwrldmemes2, maxwrldmemes3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
-            var dev = [FranceKing, FranceKing1,FranceKing2,FranceKing3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [maxwrldmemes, maxwrldmemes1,maxwrldmemes2,maxwrldmemes3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{FLASH-MD}...[][]");
+            console.log("\t [][]...{SPUNKY}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -348,7 +348,7 @@ function mybotpic() {
                         return;
                     } ;
             
-                    if(superUser) {console.log('hummm') ; return ;} 
+                    if(superUser) {console.log('hummm') ; return ;} !
                     
                     let mbd = require('./bdd/mention') ;
             
@@ -670,7 +670,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇FLASH-MD◇
+            let msg = `◇SPUNKY◇
 `;
              
             let membres = group.participants;
@@ -688,7 +688,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powered by *France King®🐐*`;
+📌Powered by *𝑴𝒂𝑿𝒘𝒓𝒍𝒅 🌍🌍𝒎𝒆𝒎𝒆𝒔®🐐*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -858,10 +858,10 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『𝐅𝐋𝐀𝐒𝐇-𝐌𝐃 is CONNECTED』*
+*『𝑺𝑷𝑼𝑵𝑲𝒀 𝑩𝑶𝑻 is CONNECTED』*
 
      
-║❒Creator: *France King*
+║❒Creator: *𝑴𝒂𝑿𝒘𝒓𝒍𝒅🌍🌍𝑴𝒆𝒎𝒆𝒔*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Created on : *22.2.2024*
@@ -870,17 +870,17 @@ ${metadata.desc}
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
  
-║❒ _Join *FLASH-MD* Channel for Updates_
+║❒ _Join *SPUNKY BOT* Channel for Updates_
 https://whatsapp.com/channel/0029VaTbb3p84Om9LRX1jg0P
 
 ║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/CtBGmUkwXiA6kGYAyU5MaX
+https://chat.whatsapp.com/Ie9EmevQ0TNEovmsouQ8CU
 
 ║❒ *FOLLOW THE DEVELOPER* 🪄 
-https://instagram.com/france.king1 
+https://instagram.com/nairobi___teens___gallery 
 
 
-              *𝐅𝐋𝐀𝐒𝐇-𝐌𝐃*`;
+              *𝑺𝑷𝑼𝑵𝑲𝒀 𝑩𝑶𝑻*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
