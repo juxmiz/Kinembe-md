@@ -5,7 +5,7 @@
   "main": "SPUNKY.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node flash.js",
+    "s": "node SPUNKY.js",
     "SPUNKY": "pm2 start SPUNKY.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
@@ -15,9 +15,9 @@
     "Flash-Md",
     "whatsapp",
     "whatsapp-bot",
-    "franceking1"
+    "maxwrldmemes"
   ],
-  "author": "𝑴𝒂𝑿𝒘𝒓𝒍𝒅🌍🌍𝑴𝒆𝒎𝒆𝒔",
+  "author": "MAX𝒓𝒍𝒅🌍🌍𝑴𝒆𝒎𝒆𝒔",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
