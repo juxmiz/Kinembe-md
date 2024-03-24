@@ -35,7 +35,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
       
     ╚═════ ▓▓ ࿇ ▓▓ ═════╝*/
     /* menuMsg+=`
-   ╔════ ▓▓ ࿇FLASH-MD࿇ ▓▓ ════╗
+   ╔════ ▓▓ ࿇𝑺𝑷𝑼𝑵𝑲𝒀 𝑩𝑶𝑻࿇ ▓▓ ════╗
   
    ||     Préfixe : ${s.prefixe}
    ||      Owner : ${s.OWNER_NAME}
@@ -47,7 +47,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════----*FLASH-MD-----
+╔════----*𝑺𝑷𝑼𝑵𝑲𝒀 𝑩𝑶𝑻-----
 ║    Préfixe : ${s.PREFIXE}
 ║    Owner : ${s.OWNER_NAME}    
 ║    Mode : ${mode}
@@ -56,7 +56,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Hour: ${temps}
 ║    Mém : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Platform : ${os.platform()}
-║    Déveloper : France King
+║    Déveloper : 𝑴𝒂𝑿𝒘𝒓𝒍𝒅🌍🌍𝑴𝒆𝒎𝒆𝒔
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
@@ -146,7 +146,7 @@ var tt=[]
        
      }*/
 //msg+=infoCom.categorie+infoCom.nomCom[0]
-//msg+=`🪰 ${infoCom.nomCom[0]} `+"\n"
+//msg+=`💌 ${infoCom.nomCom[0]} `+"\n"
 // tu = infoCom.nomCom[1]
 /*  for(var b=0;b<=infoCom.nomCom[0].length;b++)
      {
